@@ -127,8 +127,8 @@ DPRs (919 images)
 ## ⚙️ Setup & Installation
 
 ### Prerequisites
-- Python 3.8+
-- CUDA-compatible GPU (recommended)
+- Python 
+- CUDA-compatible GPU (recommended but not necessary)
 
 ### Install dependencies
 
@@ -141,10 +141,10 @@ pip install -r requirements.txt
 ### `requirements.txt`
 
 ```
-tensorflow==2.6.0
-scikit-learn==1.3.0
-opencv-python==4.12.0
-pandas==2.3.1
+tensorflow
+scikit-learn
+opencv-python
+pandas
 numpy
 matplotlib
 seaborn
